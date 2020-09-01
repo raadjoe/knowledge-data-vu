@@ -154,11 +154,11 @@ To uninstall a package use the following command:
 
 To upgrade a package do:
 
-    $ pip install –upgrade rdflib
+    $ pip install --upgrade rdflib
 
 To see a list of packages that's outdated use the following command:
 
-    $ pip list –outdated
+    $ pip list --outdated
 
 
 ## 3. JupyterLab
