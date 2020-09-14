@@ -52,7 +52,7 @@ Try the following steps to query DBpedia from GraphDB:
 3. Make sure you are in the repository that you want to query (or any repository if you're only interested in querying an external endpoint)
 4. Execute the following SPARQL query in GraphDB, which returns 10 distinct and random official languages from DBpedia.
 
-
+```turtle
     PREFIX dbo: <http://dbpedia.org/ontology/>
     SELECT DISTINCT ?language
     WHERE {
@@ -60,6 +60,8 @@ Try the following steps to query DBpedia from GraphDB:
         ?somePlace dbo:officialLanguage ?language .
       }
     } LIMIT 10
+```
+
 
 You can save your queries in GraphDB by clicking on the icon named "Create saved query", which you can find inside the query editor on the top right.
 
