@@ -2,7 +2,9 @@
 
 Starting from the third practical assignment, you will start working with triple stores. A triple store is just a specific type of graph database that stores RDF triples (subject, predicate, object), and allows their retrieval through semantic queries (e.g. using SPARQL).
 
-There are a number of available triple stores created by different companies and institutions. In this course, we use the free edition of the [GraphDB](https://www.ontotext.com/products/graphdb/) triple store developed by [Ontotext](https://www.ontotext.com/), as it is free, easy to install, and supports all the features necessary in this course.   
+There are a number of available triple stores created by different companies and institutions. In this course, we use the free edition of the [GraphDB](https://www.ontotext.com/products/graphdb/) triple store developed by [Ontotext](https://www.ontotext.com/), as it is free, easy to install, and supports all the features necessary in this course.  
+
+This document presents a short tutorial on how to install and work with GraphDB for the purpose of this course. For additional information, please check the [GraphDB documentation](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html).
 
 
 ### - *How to install the free edition of GraphDB?*
