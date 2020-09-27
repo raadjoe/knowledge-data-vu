@@ -19,7 +19,7 @@ In this session you will learn how to:
 
 
 ## Setting up
-* Download all files and subdirectories from this repository:
+* Download all files and subdirectories from this repository (by downloading `SW-Application.zip`):
   - Necessary files: `index.html`, `main.js`, and `vuDataset.ttl`
   - Necessary directories: `css` and `js`
 * Start your GraphDB Workbench
