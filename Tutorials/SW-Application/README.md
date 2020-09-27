@@ -36,7 +36,7 @@ ORDER BY DESC(?nbr_courses)
 ```
 4. Open `index.html` in your browser
 5. Give a name for your Web application, and write it in the first text field
-6. Paste the GraphDB repository URL in the second text field (see [Screenshot-Repository](Screenshot-Repository.png) in this directory)
+6. Paste the GraphDB repository URL in the second text field (see [Screenshot-Repository](screenshots/Screenshot-Repository.png) in this directory)
 7. Paste the above SPARQL query in the third text field
 8. Click the button `GO!`. Now you should see a Pie Chart showing the teaching distribution between the three teachers (see [Screenshot-WebApp](screenshots/Screenshot-WebApp.png) in this directory)
 
@@ -54,7 +54,7 @@ Did you save your files again and reloaded the Web page?
 * _I'm getting an error concerning `Access-Control-Allow-Origin`_ --> two possible ways to solve this error:
   - Solution 1: Install the [moesif CORS extension](https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc?hl=en-US) in your browser and turn it on.
   - Solution 2: Add the following line in your GraphDB settings `-Dgraphdb.workbench.cors.enable=True`
-    (not in the GraphDB Workbench but in the settings, see [Screenshot-GraphDB-settings](Screenshot-GraphDB-settings.png) in this directory)
+    (not in the GraphDB Workbench but in the settings, see [Screenshot-GraphDB-settings](screenshots/Screenshot-GraphDB-settings.png) in this directory)
 
 
 * _If your problem is not listed here, and a couple of Google searches did not help as well, ask us and your colleagues on Piazza._
