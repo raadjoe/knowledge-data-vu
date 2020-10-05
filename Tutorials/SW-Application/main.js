@@ -7,7 +7,7 @@ function mainCtrl($scope, $http){
 
 		$scope.myDisplayMessage = "Welcome to my awesome Web Application called: " + $scope.myInputAppName ;
 		$scope.mySparqlEndpoint = $scope.myInputEndPoint ;
-		$scope.mySparqlQuery = encodeURI($scope.myInputQuery).replace(/#/, '%23');
+		$scope.mySparqlQuery = encodeURI($scope.myInputQuery).replace(/#/g, '%23');
 
 		$http( {
 			method: "GET",
