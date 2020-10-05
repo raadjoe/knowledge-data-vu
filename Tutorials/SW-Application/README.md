@@ -57,4 +57,6 @@ Did you save your files again and reloaded the Web page?
     (not in the GraphDB Workbench but in the settings, see [Screenshot-GraphDB-settings](screenshots/Screenshot-GraphDB-settings.png) in this directory)
 
 
+* _I don't really have a problem, but I don't know what is scope and ng-model. Are these HTML or Javascript concepts? --> Then it is better to start with a short [AngularJS tutorial](https://www.tutorialsteacher.com/angularjs/angularjs-tutorials)._
+
 * _If your problem is not listed here, and a couple of Google searches did not help as well, ask us and your colleagues on Piazza._
